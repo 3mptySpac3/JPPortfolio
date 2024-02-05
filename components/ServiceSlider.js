@@ -30,27 +30,27 @@ export const serviceData = [
   {
     icon: <RiJavascriptLine /> ,
     title: 'Javascript',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Turning coffee and cream into code, one line at a time.',
   },
   {
     icon: <FaReact />,
     title: 'React',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Crafting reactive and dynamic web experiences with ease.',
   },
   {
     icon: <IoPhonePortraitOutline />,
     title: 'React Native',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Bridging the gap between desktop and mobile, seamlessly.',
   },
   {
     icon: <FaFigma />,
     title: 'UI/UX Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Designing intuitive interfaces that stand out.',
   },
   {
     icon: <CiChat1 />,
     title: 'Comunication',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Creating successful projects through clear communication.',
   },
 ];
 

@@ -32,9 +32,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium. Quisquam
-              quod, voluptates, quos, dolorum quia quae doloremque quibusdam
+              This is a small showcase of some of the projects ive worked on. There is a lot more coming soon!
 
                 
             </motion.p>
