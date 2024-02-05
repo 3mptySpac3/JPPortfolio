@@ -67,10 +67,7 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            nostrum quam reprehenderit vero, tenetur voluptatem nulla aut
-            aspernatur dolores ut.
-          </motion.p>
+          I&apos;m passionate about developing something truly innovative and wonderful. I aim to gain as much knowledge as possible to communicate effectively with AI upon their arrival.          </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
             <ProjectsBtn />
