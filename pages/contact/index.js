@@ -38,7 +38,7 @@ const Contact = () => {
     // Generate mailto link with form data
     const handleSubmit = (e) => {
       e.preventDefault();
-      const mailtoLink = `mailto:jeanpierrendeforgwang@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`)}`;
+      const mailtoLink = `mailto:jp@jean-pierre.dev?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`)}`;
       window.location.href = mailtoLink;
     };
 
@@ -48,7 +48,7 @@ const Contact = () => {
       {/*Text and form*/}
       <div className="flex flex-col w-full max-w-[700px]" >
         {/*Text*/}
-        <Link href='mailto:jeanpierrendeforgwang@gmail.com'>
+        <Link href='mailto:jp@jean-pierre.dev'>
         <motion.h2 
         variants={fadeIn('up',0.2)} 
         initial='hidden' 
