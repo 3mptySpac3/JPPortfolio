@@ -49,7 +49,7 @@ export const serviceData = [
   },
   {
     icon: <CiChat1 />,
-    title: 'Comunication',
+    title: 'Communication',
     description: 'Creating successful projects through clear communication.',
   },
 ];
