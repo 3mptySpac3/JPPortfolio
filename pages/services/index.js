@@ -34,7 +34,7 @@ const Services = () => {
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
               
-              <span className='text-accent'>I am  the talent! </span> I would say my grreatest asset is my tenasity and my willingness to find a solution no matter what. In programming, half the battle is perseverance, so in that sense. I am the talent.
+              <span className='text-accent'>I am  the talent! </span> I would say my greatest asset is my tenasity and my willingness to find a solution no matter what. In programming, half the battle is perseverance, so in that sense. I am the talent.
                 
             </motion.p>
           </div>
