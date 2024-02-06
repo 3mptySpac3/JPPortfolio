@@ -67,7 +67,7 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-          I&apos;m passionate about developing something truly innovative and wonderful. I aim to gain as much knowledge as possible such that I can communicate with <span className="text-accent"> Artifificial Inteligence </span> upon their arrival.          </motion.p>
+          I&apos;m passionate about developing something truly innovative and wonderful. I aim to gain as much knowledge as possible such that I can communicate with <span className="text-accent"> Artificial Intelligence </span> upon their arrival.          </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
             <ProjectsBtn />
