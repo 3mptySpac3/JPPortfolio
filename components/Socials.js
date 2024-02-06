@@ -19,7 +19,7 @@ const Socials = () => {
       <Link href={'https://github.com/3mptySpac3'} target='_blank' className='hover:text-accent transition-all duration-400 animate-bounce'>
       <FaGithub />
       </Link>
-      <div className=''>
+      <div className='text-black'>
       <GoDash />
       </div>
       
