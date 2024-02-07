@@ -36,6 +36,7 @@ const AboutMe = () => {
     </div>
   );
 
+
   return (
     
     <div className="container mx-auto px-4 py-8">
@@ -59,13 +60,13 @@ const AboutMe = () => {
       </div>
 
       {/* Introduction */}
-      <div className="mt-8">
+      <div className="mt-8 ">
         <motion.h2 
         variants={fadeIn('down', 0.4)}
         initial='hidden'
         animate='show'
         exit='hidden'
-        className="text-2xl font-semibold text-accent">
+        className="text-2xl font-semibold text-accent ">
           About Me</motion.h2>
         <motion.p 
         className="mt-4"
@@ -80,7 +81,7 @@ const AboutMe = () => {
         I&apos;m a passionate software developer with a keen eye for design, I pride myself on being an <br />
         exuberantly fast learner. I am, at heart, a curious explorer of life, with a particular fondness <br />
         for crafting aesthetically appealing designs. To me, programming is equivilent to accidentally <br /> 
-        falling in love and like Ceasar - <span className=' text-accent'>&apos;I came, I saw, I coded.&apos;</span>
+        falling in love and like Ceasar &mdash; <span className=' text-accent hover:text-black'>&quot;I came, I saw, I coded.&quot;</span>
         </span>
         </motion.p>
       </div>
