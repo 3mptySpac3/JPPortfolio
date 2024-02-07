@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
     <Head>
       <title>Jean-Pierre</title>
       <meta name="description" content="Jean-Pierre's Portfolio" />
-      <link rel="icon" href='/favicon-16x16.png'/>
+      <link rel="icon" href='/favicon-32x32.png'/>
     </Head>
     <Layout>
       <AnimatePresence mode='wait'>
