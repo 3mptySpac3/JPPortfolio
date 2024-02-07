@@ -32,7 +32,7 @@ const AboutMe = () => {
   const SkillIcon = ({ icon: Icon, name, color }) => (
     <div className="w-20 h-20 m-4 flex flex-col items-center justify-center group hover:translate-y-3 duration-1000">
       <Icon size="3em" color={color} />
-      <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ color: '#C0F8F8' }}>{name}</span>
+      <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300" >{name}</span>
     </div>
   );
 
