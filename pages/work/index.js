@@ -32,7 +32,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              This is a small showcase of some of the projects ive worked on. There is a lot more coming soon!
+              This is a brief showcase of some projects I&apos;ve worked on. Much more to come!
 
                 
             </motion.p>
