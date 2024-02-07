@@ -21,7 +21,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
-        <link rel="icon" href="/favicon.ico" />
+      <title>Jean-Pierre</title>
+      <meta name="description" content="Jean-Pierre's Portfolio" />
+      <link rel="icon" href="/favicon.ico" />
     </Head>
     <Layout>
       <AnimatePresence mode='wait'>
