@@ -3,6 +3,8 @@ import { SiJavascript, SiNextdotjs } from 'react-icons/si';
 import { FaPython, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
 import { SiCsharp, SiReact, SiTailwindcss, SiMongodb, SiFigma, SiFirebase, SiExpress } from 'react-icons/si';
 import { IoPhonePortraitOutline } from "react-icons/io5";
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../variants';
 
 
 
@@ -28,7 +30,7 @@ const AboutMe = () => {
   ];
 
   const SkillIcon = ({ icon: Icon, name, color }) => (
-    <div className="w-20 h-20 m-4 flex flex-col items-center justify-center group">
+    <div className="w-20 h-20 m-4 flex flex-col items-center justify-center group hover:translate-y-3 duration-1000">
       <Icon size="3em" color={color} />
       <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">{name}</span>
     </div>
@@ -43,26 +45,46 @@ const AboutMe = () => {
         className=''>
         </div>
 
-        <p className=" text-lg mt-24 text-white">Web Designer | Software Developer | UI/UX Designer</p>
+        <motion.p 
+        className=" text-lg mt-24 text-white"
+        variants={fadeIn('down', 0.4)}
+        initial='hidden'
+        animate='show'
+        exit='hidden'
+        >Web Designer | Software Developer | UI/UX Designer</motion.p>
       </div>
 
       {/* Introduction */}
       <div className="mt-8">
-        <h2 className="text-2xl font-semibold">About Me</h2>
-        <p className="mt-4">
-        <span className='text-white'>
+        <motion.h2 
+        variants={fadeIn('down', 0.4)}
+        initial='hidden'
+        animate='show'
+        exit='hidden'
+        className="text-2xl font-semibold text-accent">
+          About Me</motion.h2>
+        <motion.p 
+        className="mt-4"
+        variants={fadeIn('up', 0.8)}
+        initial='hidden'
+        animate='show'
+        exit='hidden'
+        >
+        <span 
+        className='text-white'
+        >
         I&apos;m a passionate software developer with a keen eye for design, I pride myself on being an <br />
         exuberantly fast learner. I am, at heart, a curious explorer of life, with a particular fondness <br />
         for crafting aesthetically appealing designs. To me, programming is equivilent to accidentally <br /> 
         falling in love and like Ceasar - <span className=' text-accent'>&apos;I came, I saw, I coded.&apos;</span>
         </span>
-        </p>
+        </motion.p>
       </div>
 
       {/* Skills */}
       <div className="flex flex-wrap justify-center mt-4">
         {skills.map((skill) => (
-          <SkillIcon key={skill.name} {...skill} />
+          <SkillIcon key={skill.name} {...skill} className=''/>
         ))}
       </div>
     </div>
