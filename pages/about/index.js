@@ -51,7 +51,11 @@ const AboutMe = () => {
         initial='hidden'
         animate='show'
         exit='hidden'
-        >Web Designer | Software Developer | UI/UX Designer</motion.p>
+        >
+          <span className='hover:text-accent '>
+            Web Designer </span>| <span className='hover:text-accent'>Software Developer </span>| <span className='hover:text-accent'>UI/UX Designer</span>
+          
+        </motion.p>
       </div>
 
       {/* Introduction */}
