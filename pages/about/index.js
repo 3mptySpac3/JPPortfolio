@@ -30,10 +30,17 @@ const AboutMe = () => {
   ];
 
   const SkillIcon = ({ icon: Icon, name, color }) => (
-    <div className="w-20 h-20 m-4 flex flex-col items-center justify-center group hover:translate-y-3 duration-1000">
+    <motion.div className="w-20 h-20 m-4 flex flex-col items-center justify-center group"
+    variants={fadeIn('up', 0.6)}
+    initial='hidden'
+    animate='show'
+    exit='hidden'
+    whileHover={{ translateY: 8, }}
+    transition={{ duration: .8, ease: "easeInOut" }}
+    >
       <Icon size="3em" color={color} />
       <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300" >{name}</span>
-    </div>
+    </motion.div>
   );
 
 
@@ -70,7 +77,7 @@ const AboutMe = () => {
           About Me</motion.h2>
         <motion.p 
         className="mt-4"
-        variants={fadeIn('up', 0.8)}
+        variants={fadeIn('up', 0.6)}
         initial='hidden'
         animate='show'
         exit='hidden'
