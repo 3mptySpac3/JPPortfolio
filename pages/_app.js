@@ -13,8 +13,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 //head
 import Head from 'next/head';
 
-//link
-import Link from 'next/link';
 
 
 
@@ -23,7 +21,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
-        <Link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
     </Head>
     <Layout>
       <AnimatePresence mode='wait'>
