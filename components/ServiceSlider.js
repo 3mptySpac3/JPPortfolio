@@ -50,7 +50,7 @@ export const serviceData = [
   {
     icon: <CiChat1 />,
     title: 'Communication',
-    description: 'Creating successful projects through clear communication.',
+    description: 'Fostering an alluring and rich atmosphere filled with stories and laughter.',
   },
 ];
 
