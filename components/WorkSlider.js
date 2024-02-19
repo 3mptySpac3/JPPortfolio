@@ -5,8 +5,8 @@ export const workSlider = {
       images: [
         {
           title: 'Chess',
-          path: '/coming soon.jpg',
-          url: 'https://github.com/3mptySpac3'
+          path: '/mychess.png',
+          url: 'https://3mptyspac3.github.io/ChessGame/'
         },
         {
           title: 'Capstone',
