@@ -6,7 +6,7 @@ export const workSlider = {
         {
           title: 'Chess',
           path: '/mychess.png',
-          url: 'https://3mptyspac3.github.io/ChessGame/'
+          url: 'https://github.com/3mptySpac3/ChessGame'
         },
         {
           title: 'Capstone',
