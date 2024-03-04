@@ -19,18 +19,18 @@ export const workSlider = {
           url: 'https://github.com/3mptySpac3/CSharp-Project-CPRG211'
         },
         {
-          title: 'Capstone',
-          path: '/Capstone1.jpg',
-          url: 'https://www.figma.com/proto/ofp2312WjvSgK8VpW6jcpK/Software-analysis?type=design&node-id=159-5601&t=GWH9vHRzun0qBtUZ-1&scaling=scale-down&page-id=82%3A649&starting-point-node-id=159%3A5601&mode=design'
+          title: 'J-Store',
+          path: '/Jshop.png',
+          url: 'https://github.com/3mptySpac3/JP-Store'
         },
       ],
     },
     {
       images: [
         {
-          title: '',
-          path: '/coming soon.jpg',
-          url: 'https://github.com/3mptySpac3'
+          title: 'Capstone',
+          path: '/Capstone1.jpg',
+          url: 'https://www.figma.com/proto/ofp2312WjvSgK8VpW6jcpK/Software-analysis?type=design&node-id=159-5601&t=GWH9vHRzun0qBtUZ-1&scaling=scale-down&page-id=82%3A649&starting-point-node-id=159%3A5601&mode=design'
         },
         // {
         //   title: '',
