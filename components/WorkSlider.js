@@ -4,49 +4,41 @@ export const workSlider = {
     {
       images: [
         {
+          title: 'Vita',
+          path: '/CapstoneThumbnail.jpg',
+          url: 'https://github.com/3mptySpac3/Vita-la-revolution.git'
+        },
+        {
           title: 'Chess',
           path: '/mychess.png',
           url: 'https://github.com/3mptySpac3/ChessGame'
-        },
-        {
-          title: 'Dino Game',
-          path: '/DinoGame.png',
-          url: 'https://github.com/3mptySpac3/Dino'
-        },
-        {
-          title: 'Jps Shop',
-          path: '/v41.png',
-          url: 'https://github.com/3mptySpac3/CSharp-Project-CPRG211'
         },
         {
           title: 'J-Store',
           path: '/Jshop.png',
           url: 'https://github.com/3mptySpac3/JP-Store'
         },
+        {
+          title: 'Dino Game',
+          path: '/DinoGame.png',
+          url: 'https://github.com/3mptySpac3/Dino'
+        },
+
       ],
     },
     {
       images: [
         {
+          title: 'Jps Shop',
+          path: '/v41.png',
+          url: 'https://github.com/3mptySpac3/CSharp-Project-CPRG211'
+        },
+        {
           title: 'Capstone',
           path: '/Capstone1.jpg',
           url: 'https://www.figma.com/proto/ofp2312WjvSgK8VpW6jcpK/Software-analysis?type=design&node-id=159-5601&t=GWH9vHRzun0qBtUZ-1&scaling=scale-down&page-id=82%3A649&starting-point-node-id=159%3A5601&mode=design'
         },
-        // {
-        //   title: '',
-        //   path: '',
-        //   url: ''
-        // },
-        // {
-        //   title: 'title',
-        //   path: '/thumb2.jpg',
-        //   url: ''
-        // },
-        // {
-        //   title: 'title',
-        //   path: '/thumb3.jpg',
-        //   url: ''
-        // },
+
       ],
     },
   ],
