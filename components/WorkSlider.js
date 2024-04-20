@@ -9,14 +9,14 @@ export const workSlider = {
           url: 'https://github.com/3mptySpac3/Vita-la-revolution.git'
         },
         {
-          title: 'Chess',
-          path: '/mychess.png',
-          url: 'https://github.com/3mptySpac3/ChessGame'
-        },
-        {
           title: 'J-Store',
           path: '/Jshop.png',
           url: 'https://github.com/3mptySpac3/JP-Store'
+        },
+        {
+          title: 'Chess',
+          path: '/mychess.png',
+          url: 'https://github.com/3mptySpac3/ChessGame'
         },
         {
           title: 'Dino Game',
