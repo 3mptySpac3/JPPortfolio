@@ -9,6 +9,11 @@ export const workSlider = {
           url: 'https://github.com/3mptySpac3/Vita-la-revolution.git'
         },
         {
+          title: '30-Thirty',
+          path: '/thumbnail3030.png',
+          url: 'https://github.com/3mptySpac3/30-Thirty'
+        },
+        {
           title: 'J-Store',
           path: '/Jshop.png',
           url: 'https://github.com/3mptySpac3/JP-Store'
@@ -18,16 +23,16 @@ export const workSlider = {
           path: '/mychess.png',
           url: 'https://github.com/3mptySpac3/ChessGame'
         },
-        {
-          title: 'Dino Game',
-          path: '/DinoGame.png',
-          url: 'https://github.com/3mptySpac3/Dino'
-        },
 
       ],
     },
     {
       images: [
+        {
+        title: 'Dino Game',
+        path: '/DinoGame.png',
+        url: 'https://github.com/3mptySpac3/Dino'
+        },
         {
           title: 'Jps Shop',
           path: '/v41.png',
