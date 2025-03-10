@@ -42,7 +42,7 @@ export const workSlider = {
           title: 'Godot Game 1',
           path: '/godot1.png',
           url: 'https://3mptyspac3.github.io/GodotGame1/'
-        }
+        },
         {
           title: 'Capstone',
           path: '/Capstone1.jpg',
