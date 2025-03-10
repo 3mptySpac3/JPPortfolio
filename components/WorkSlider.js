@@ -39,6 +39,11 @@ export const workSlider = {
           url: 'https://github.com/3mptySpac3/CSharp-Project-CPRG211'
         },
         {
+          title: 'Godot Game 1',
+          path: '/godot1.png',
+          url: 'https://3mptyspac3.github.io/GodotGame1/'
+        }
+        {
           title: 'Capstone',
           path: '/Capstone1.jpg',
           url: 'https://www.figma.com/proto/ofp2312WjvSgK8VpW6jcpK/Software-analysis?type=design&node-id=159-5601&t=GWH9vHRzun0qBtUZ-1&scaling=scale-down&page-id=82%3A649&starting-point-node-id=159%3A5601&mode=design'
